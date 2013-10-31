@@ -1,0 +1,121 @@
+body {
+    background-color: #c00;
+    /*border: black 5px solid;*/
+    margin: 0 5%;
+}
+
+/*Header and footer css*/
+
+header img {
+    height: 40px;
+    float: left;
+}
+
+header {
+    font: 11pt Garamond, Arial, sans-serif;
+    color: #c00;
+    background-color: #bbb;
+    /*background-image: url("../images/yahtzee_title.jpg");*/
+    height: 55px;
+    text-align: right;
+    padding-top: 5px;
+    background-repeat: repeat-y;
+}
+
+footer{
+        font: 11pt Garamond, Arial, sans-serif;
+	color: #c00;
+	font-size: 14px;
+	text-align: center;
+        font-family: sans-serif;
+        background-color: #bbb;
+}
+
+/*img.footer{
+      text-align: justify;
+      }*/
+a.footer{
+	font-size: smaller;
+	color: white;
+	background-color: #c3040c;
+	text-decoration: none;
+}
+a:hover.footer{
+	font-size: smaller;
+	color: #c3040c;
+	background-color: white;
+}
+a:visited.footer{
+	font-size: smaller;
+	color: white;
+	background-color: #c3040c;
+	text-decoration: none;
+}
+a:VISITED:HOVER.footer{
+	color: #c3040c;
+	background-color: white;
+}
+
+/*form {
+margin-bottom: 1em;
+display: block;
+margin-top: 0em;
+text-align: center;
+}*/
+
+/*end of header/footer css*/
+/*Start of homepage specific css*/
+#login {
+    float: right;
+    clear: left;
+    border: black 1px solid;
+    height: 100px;
+    width: 40%;
+    /*padding-right: 20px;*/
+    color: white;
+}
+
+#signup {
+    text-align: center;
+    color: white;
+    border: black 1px solid;
+    height: 100px;
+    margin-right: 250px;
+    width: 40%;
+}
+#login_signup {
+    /*border: 5px solid black;*/
+    width: 100%;
+    margin-bottom: 5%;
+    height: 350px;
+    margin-top: 5%;
+}
+#login_signup img {
+    height: 45%;
+    text-align: justify;
+    float: right;
+    margin: 5% 35%;
+}
+
+/*end of homepage specific css
+start of signup page specific css*/
+#signingup label{
+ 
+width: 6em;
+height:auto;
+border: 1px solid black;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block;
+padding-right: 1em;
+/*margin-bottom: 5px;*/
+}
+
+#signingup input {
+    width: 10.5em;
+}
+
+#signupsubmit input {
+    margin-left: 8em;
+}
