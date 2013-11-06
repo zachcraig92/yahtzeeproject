@@ -2,6 +2,7 @@ body {
     background-color: #c00;
     /*border: black 5px solid;*/
     margin: 0 5%;
+    width: 70%;
 }
 
 /*Header and footer css*/
@@ -15,18 +16,16 @@ header {
     font: 11pt Garamond, Arial, sans-serif;
     color: #c00;
     background-color: #bbb;
-    /*background-image: url("../images/yahtzee_title.jpg");*/
     height: 55px;
     text-align: right;
     padding-top: 5px;
-    background-repeat: repeat-y;
 }
 
 footer{
         font: 11pt Garamond, Arial, sans-serif;
-	color: #c00;
-	font-size: 14px;
-	text-align: center;
+        color: #c00;
+        font-size: 14px;
+        text-align: center;
         font-family: sans-serif;
         background-color: #bbb;
 }
@@ -35,25 +34,25 @@ footer{
       text-align: justify;
       }*/
 a.footer{
-	font-size: smaller;
-	color: white;
-	background-color: #c3040c;
-	text-decoration: none;
+        font-size: smaller;
+        color: white;
+        background-color: #c3040c;
+        text-decoration: none;
 }
 a:hover.footer{
-	font-size: smaller;
-	color: #c3040c;
-	background-color: white;
+        font-size: smaller;
+        color: #c3040c;
+        background-color: white;
 }
 a:visited.footer{
-	font-size: smaller;
-	color: white;
-	background-color: #c3040c;
-	text-decoration: none;
+        font-size: smaller;
+        color: white;
+        background-color: #c3040c;
+        text-decoration: none;
 }
 a:VISITED:HOVER.footer{
-	color: #c3040c;
-	background-color: white;
+        color: #c3040c;
+        background-color: white;
 }
 
 /*form {
@@ -98,17 +97,18 @@ text-align: center;
 }
 
 /*end of homepage specific css
-start of signup page specific css*/
+start of signup page, forgot access page specific css*/
 #signingup label{
  
 width: 6em;
-height:auto;
-border: 1px solid black;
+/*border: 1px solid black;*/
 float: left;
+/*clear: right;*/
 text-align: right;
 margin-right: 0.5em;
-display: block;
-padding-right: 1em;
+/*margin-left: 500px;*/
+/*display: block;*/
+/*padding-right: 1em;*/
 /*margin-bottom: 5px;*/
 }
 
@@ -116,6 +116,27 @@ padding-right: 1em;
     width: 10.5em;
 }
 
+#signingup {
+    margin: 4% 5%;
+    text-align: justify;
+    /*border: 1px solid black;*/
+    width: 400px;
+}
+
 #signupsubmit input {
     margin-left: 8em;
+}
+
+#signingup fieldset
+{
+border: 1px solid #781351;
+}
+
+#signingup legend
+{
+color: white;
+background: #bbb;
+border: 1px solid #781351;
+padding: 0 5px;
+height: auto;
 }

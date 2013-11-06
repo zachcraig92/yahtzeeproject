@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--Home page-->
 <html>
     <head>
         <title>Yahtzee Online</title>
@@ -11,26 +10,21 @@
             <a href="homepage.php" ><img src="images/yahtzee4.png" alt="Yahtzee Online"/></a>
             Brought to you by your friendly villagehood <br/>Lords of the Code
         </header>
-        <div id="login_signup">
-            <div id="login">
-                <form name="login" action="userpage.php" method="post">
-                    <label>Log in here <br/><input type="text" name="q" value="Username"/></label> <br/>
-                    <input type="password" value="password" /> <br/>
-                    <input type="submit" value="Submit" />
-                </form>
-                <a href="forgot.php" >Forgot login details?</a>
-            </div>
-            <div id="signup">
-                <p>Don't have an account yet? Sign up is free and easy!</p>
-                <form action="signup.php">
-                    <input type="submit" value="Create a new account">
-                </form>
-            </div>
-
-            <img src="images/yahtzee_homepagepic.jpg" alt="yahtzee"/>
+        
+        <div id="signingup">
+            <p>Forgot your password? That's okay, enter your username and 
+                e-mail and we will send you your password!</p>
+            <form method="post" action="userpage.php">
+                <label> username </label> <input type="text" name="Username" />
+                <!--code for if forgot username, spits out security q-->
+                <p> Forgot username? </p>
+                <br/>
+                <label>e-mail</label><input type="text" name="Email" />
+                <input type="submit" value="submit"/>
+            </form>
         </div>
         
-         <footer>
+        <footer>
             <p> The original YAHTZEE&trade; game is a trademark of Hasbro, Inc.<br />
             Credit goes to <a class="footer" href="http://www.YahtzeeScoresheet.com"> YahtzeeScoresheet.com</a> This is a free service to provide an playing experience that is enjoyable.<br />
             The dice aren't included. For concerns or questions please feel free to <a class="footer" href="http://yahtzeescoresheet.blogspot.com">BLOG HERE.</a><br />
@@ -51,6 +45,5 @@
             <p>&copy; 2013 Lords of the Code</p>
             </form>
             </footer>
-        <!--</div>-->
-    </body> 
+    </body>
 </html>
